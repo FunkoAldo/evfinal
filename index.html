@@ -1,0 +1,161 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edgar David - Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .nav-top {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+        }
+        .nav-top a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        .nav-top a:hover {
+            text-decoration: underline;
+        }
+        .logo-icon {
+            font-size: 24px;
+            color: #008cff;
+        }
+        .profile-section {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .tech-icons {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .tech-icons img {
+            height: 50px;
+            margin: 0 1rem;
+        }
+        .about-section {
+            background-color: #2b2d42;
+            color: white;
+            padding: 3rem 0;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        .experience-card {
+            text-align: center;
+            padding: 2rem;
+            margin: 1rem 0;
+        }
+        .experience-icon {
+            font-size: 2rem;
+            color: #2b2d42;
+            margin-bottom: 1rem;
+        }
+        .tech-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 0.25rem;
+            background-color: #007bff;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="nav-top">
+        <div class="logo">
+            <i class="fas fa-code logo-icon"></i>
+        </div>
+        <div class="menu">
+            <a href="index.html">Sobre mí</a>
+            <a href="proyect.html">Mis Proyectos</a>
+            <a href="proyect.html#testimonial-section">Testimonios</a>
+            <a href="contact2.html">Contacto</a>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <img src="imagenes/perfil.jpg" alt="Aldo Navarrete" class="profile-image">
+        <h1>Hola, soy Aldo Navarrete</h1>
+        <p>Desarrollo sitios web y escribo artículos sobre programación.</p>
+    </section>
+
+    <!-- Technology Icons -->
+    <div class="tech-icons">
+        <img src="imagenes/pngwing.com.png" alt="HTML5">
+        <img src="imagenes/eqweqw.png" alt="CSS3">
+        <img src="imagenes/code-programming-javascript-software-develop-command-language-512.webp" alt="JavaScript">
+        <img src="imagenes/ewe.png" alt="React">
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Conoce a Edgar David</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultrices erat nisi sit amet dolor. Donec ut venenatis nunc, vel hendrerit ex.</p>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="experience-card">
+                    <i class="fas fa-laptop-code experience-icon"></i>
+                    <h3>Desarrollo Web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="experience-card">
+                    <i class="fas fa-file-alt experience-icon"></i>
+                    <h3>Artículos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Escribir</span>
+                        <span class="tech-badge">Tutoriar</span>
+                        <span class="tech-badge">Blogs</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="experience-card">
+                    <i class="fas fa-user-graduate experience-icon"></i>
+                    <h3>Estudiante</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">freeCodeCamp</span>
+                        <span class="tech-badge">Desarrollo Web</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
